@@ -1,0 +1,284 @@
+body
+{
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4 ,h5 ,h6
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+}
+
+
+p
+{
+    color: #8f8f8f  ;
+}
+
+/* Heading */
+.big-heading
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+
+}
+.section-heading
+{
+    font-size: 3rem;
+    line-height: 1.5;        
+    
+}
+
+
+
+/* Title section */
+
+#title
+{
+    background-color: #59C1BD ;
+    /* height: 50%; */
+    
+}
+@media (max-width:1028px) 
+{
+  
+    #title
+    {
+        text-align: center;
+    }
+
+}
+.container-fluid
+{
+    padding: 1% 1% 0% 3%; 
+}
+
+/* /* Navigation bar  */
+
+.navbar
+{
+    padding-bottom: 10px; 
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.7rem;
+    font-family: 'Montserrat-lite', sans-serif;
+    color: red;
+
+
+}
+.navbar-brand
+{
+    font-size: 2.5rem;
+}
+
+
+
+/* Download buttons */
+
+
+.download-button
+{
+    margin: 3% 3% 5% 0;
+}
+
+/* Feature Box */
+
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+#features
+{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
+}
+.icon-color
+{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon-color:hover
+{
+    color:#ff4c68;
+}
+
+
+
+
+/* Testimonial  */
+
+
+#testimonials
+{
+    text-align: center;
+    /* color: #fff; */    
+    /* height: 600px; */
+    background-color: #00ABB3;
+}
+
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white
+}
+
+
+.carousel-control-prev-icon
+{
+    background-color: black;
+}
+.carousel-control-next-icon
+{
+ background-color: red;   
+}
+.carousel-item
+{
+    padding: 7% 15%;
+
+}
+
+
+
+.Top-places
+{
+    /* background-color:#ff4c68; */
+    background-image: url("./back2.jpg");
+    
+    padding: 7% 10%;
+
+}
+
+#cta
+{
+    text-align: center;
+    /* background-color: ; */
+    color: white;
+    padding: 1% 15%;
+}
+
+.cta-heading
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;   
+    line-height: 2;
+
+
+}
+
+#footer
+{
+    background-color: #00ABB3;
+    padding: 4% 15%;
+    text-align: center;
+
+}
+
+.social-icon
+{
+    color: white;
+    margin: 20px 10px;
+}
+.social-icon:hover
+{
+    color: #3B3486;
+}
+
+
+.card:hover{
+    transition: all 0.5s linear;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+/* why visit uttarakhand  */
+.why
+{
+    text-align: center;
+    background-color: white;
+    padding: 0px 5% 1% 5%;
+    height: 600px;
+}
+
+
+.piechart_3d
+{
+    background-color: red;
+    /* text-align: center; */
+    padding: 2% 15%;
+}
+
+.testimonial-image
+{
+    width: 1250px;
+    padding-top: 0px;
+}
+
+.eight
+{
+    padding: 50px;
+    background-color: white;
+}
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+
+.c-top
+{
+    height: 250px;
+    width: 400px;
+}
+
+
+/* video */
+video
+{
+  width: 100%;
+  height: 80%;
+  padding: 0px 20px 0px 20px;
+  /* padding-bottom: 0%; */
+}
+@media (max-width:1028px) {
+video
+{
+  width: 100%;
+  height: 80%;
+  padding: 0px 20px;
+  padding-bottom: 0%;
+}
+
+}
+
+
+
+
+#chat_wrap
+{
+    position: relative;
+    padding-bottom: 100%;
+    height: 0px;
+    overflow: hidden;
+}
+#piechart
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+}

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta charset="utf-8">
+  <title>CODER SAMA</title>
+  <link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a9e0f34ff3.js" crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+
+  <!-- Stack Overflow -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="public/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Location', '% of tourist'],
+        ['Fauna',11],
+        ['Feel the Thrill',2],
+        ['Reconnect',  2],
+        ['From The Past', 2],
+        ['Flavours Of land',    7],
+        ['Voices And Culture',10],
+        ['Nature Bounty',8],
+        ['Temples',8]
+      ]);
+
+      var options = {
+        title: 'Uttarakhand Tourism Data For Previous Year 2021',
+        is3D: true,
+        width:"100%",
+        height:"500px"
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+      chart.draw(data, options);
+    }
+  </script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+
+<!-- Nav Bar -->
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            
+            <a class="navbar-brand" href=""><i class="fa-solid fa-mountain-sun"></i><strong> SAMA</strong></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="https://rzp.io/l/Ye2yg2Bbb" ><i class="fa-solid fa-hand-holding-dollar"></i> Donate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://safe-reaches-39712.herokuapp.com/"> <i class="fa-solid fa-pen-nib"></i> Write</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#footer"><button type="button" class="btn btn-outline-light"><i class="fa-solid fa-arrow-right-to-bracket"></i> <strong>Connect</strong></button></a>
+              </li>
+
+          </ul>
+       </div>
+      </nav>   
+    </div>
+
+<!-- VIDEO  -->
+<section id="video">
+  <video loop muted autoplay>
+    <source src="public/images/n2.mp4" type="video/mp4">
+    
+  </video>
+</section>
+</section>
+
+ 
+
+
+<!-- eight photos of uttarakhand  -->
+<section style="padding: 5% 7%; margin: 10px;">
+  <h1 class="special-heading" style="color: white;"> EXPLORE THE UNEXPLORED</h1>
+      <!-- first row  -->
+    <div class="row">  
+      <div class="col-lg-4 col-md-6  pricing-column">
+        <div class="card" style="width: 25rem;">
+          <img class="card-img-top c-top" src="public/images/th2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Feel The Thrill</h5>
+            <p class="card-text">"Go Venture Far Beyond The Shores."</p><br>
+            <!-- <a href="#" class="btn btn-secondary btn-lg btn-block btn-dark">Visit Now</a> -->
+            <a href="index1.html"><button type="button" class="btn btn-block btn-outline-success">Visit Now</button></a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-md-6  pricing-column">
+        <div class="card" style="width: 25rem;">
+          <img class="card-img-top c-top" src="public/images/th3.jpg" alt="Dragon Momo img">
+          <div class="card-body">
+            <h5 class="card-title">Nature Bounty</h5>
+            <p class="card-text">"Witness The beauty of Nature."</p><br>
+            <!-- <a href="#" class="btn btn-secondary btn-lg btn-block btn-dark">Visit Now</a> -->
+            <a href="https://en.wikipedia.org/wiki/Uttarakhand"><button type="button" class="btn btn-block btn-outline-success">Visit Now</button></a>
+          </div>
+        </div>
+      </div>
+      
+<!-- ************************ -->
+<div class="col-lg-4 col-md-6  pricing-column">
+  <div class="card" style="width: 25rem;">
+    <img class="card-img-top c-top" src="public/images/t7.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">From The Past</h5>
+      <p class="card-text">Tales of Yesterday</p><br>
+      <!-- <a href="#" class="btn btn-secondary btn-lg btn-block btn-dark">Visit Now</a> -->
+      <a hre="https://en.wikipedia.org/wiki/Uttarakhand"><button type="button" class="btn btn-block btn-outline-success">Visit Now</button></a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6  pricing-column">
+  <div class="card" style="width: 25rem;">
+    <img class="card-img-top c-top" src="public/images/th.webp" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Flavours Of the Land</h5>
+      <p class="card-text">"A recipie has no sole, you as the cook must soul to recipie."</p><br>
+      <!-- <a href="#" class="btn btn-secondary btn-lg btn-block btn-dark">Visit Now</a> -->
+      <a href="index3.html"><button type="button" class="btn btn-block btn-outline-success">Visit Now</button></a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6  pricing-column">
+  <div class="card" style="width: 25rem;">
+    <img class="card-img-top c-top" src="public/images/t6.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Voices And Culture</h5>
+      <p class="card-text">"We may have different religions, different languages, different colored skin, but we all belong to one human race"</p>
+      <!-- <a href="#" class="btn btn-secondary btn-lg btn-block btn-dark">Visit Now</a> -->
+      <a href="https://en.wikipedia.org/wiki/Uttarakhand"><button type="button" class="btn btn-block btn-outline-success">Visit Now</button></a>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6  pricing-column">
+  <div class="card" style="width: 25rem;">
+    <img class="card-img-top c-top" src="public/images/th4.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Temples</h5>
+      <p class="card-text">“The most beautiful temple in the universe is your soul; that is why God wants to dwell in it.”</p>
+      <!-- <a href="#" class="btn btn-secondary btn-lg btn-block btn-dark">Visit Now</a> -->
+      <a href="https://en.wikipedia.org/wiki/Uttarakhand"><button type="button" class="btn btn-block btn-outline-success">Visit Now</button></a>
+    </div>
+  </div>
+</div>
+<!-- ********************** -->
+
+
+
+
+
+
+      <!-- ****** -->
+    </div>  
+  </section>
+
+
+<!-- end  -->
+<section id="wVU">
+ <div style=" text-align: center;
+ background-color: white;
+ padding: 2% 10% 1px 10%;">
+  <h1 class="special-heading" style="color:#3B3486;">Why Visit Uttarakhand ?</h1>
+ </div>
+</section>
+
+
+<!-- why visit uttra  -->
+
+<div class="why">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="testimonial-image" src="public/images/S1.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="testimonial-image" src="public/images/s2.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="testimonial-image" src="public/images/s3.png" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="testimonial-image" src="public/images/s4.png" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="testimonial-image" src="public/images/s5.png" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="testimonial-image" src="public/images/s6.png" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      
+    </a>
+  </div>
+</div>
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Carasole Items -->
+
+          <div class="carousel-item active">
+            <h2 class="testimonial-text">"It was a life Experience to visit such a beautiful cultural country with Such heritage."</h2>
+           
+            <em style="color: white;">Fannie Rowe, United Kingdom</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">"Now, I am big fan of Power Yoga. Thank You uttarakhand for such a gift to this world."</h2>
+         
+            <em style="color: white;">Jackie Chan,Hong Kong</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">"Thank you so much for your help in organising our India trip.It was a  fantastic time."</h2>
+          
+            <em style="color: white;">Sam,USA</em>
+          </div>
+
+      </div>
+
+      <!-- PREV NEXT BUTTON -->
+
+      <a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span> --> -->
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <!-- <span class="carousel-control-next-icon" ></span>
+          <span class="sr-only">Next</span> -->
+      </a>
+  </div>
+
+   
+
+    
+
+  </section>
+
+<!-- charts  -->
+<div class="hello">
+  <div id="piechart_3d" style="width: 100%; height: 500px;"></div>
+  </div>
+
+<section class="Top-places">
+  <h1 class="special-heading" style="color: white;"> Top Places:</h1>
+  <br>
+  <br>
+      
+    <div class="row">  
+      <div class="col-lg-4 col-md-6  pricing-column">
+        <div class="card" style="width: 22rem;">
+          <img class="card-img-top" src="public/images/rafting.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Best adventures to try in Uttarakhand</h5>
+            <p class="card-text">Uttarakhand offers several activities to keep the adventure enthusiasts busy.</p>
+            <a href="index1.html" class="btn btn-secondary btn-lg btn-block btn-dark">Book Now</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-md-6  pricing-column">
+        <div class="card" style="width: 22rem;">
+          <img class="card-img-top" src="public/images/kumbh.jpg" alt="Dragon Momo img">
+          <div class="card-body">
+            <h5 class="card-title">Kumbh Mela: Leap of Faith In Haridwar</h5>
+            <p class="card-text"> What makes attending a Kumbh Mela a once-in-a-lifetime opportunity</p>
+            <a href="index2.html" class="btn btn-secondary btn-lg btn-block btn-dark">Experience Now</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6  pricing-column">
+        <div class="card" style="width: 22rem;">
+          <img class="card-img-top" src="public/images/beatles.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Best adventures to try in Uttarakhand</strong></h5>
+            <p class="card-text"> Some facts that made headlines during and after visit Beatles to India</p>
+            <a href="#" class="btn btn-secondary btn-lg btn-block btn-dark">Visit Now</a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- Call to Action --> -->
+  <section id="cta">
+
+    <!-- <h2 class="cta-heading" style="color: black;">Connect Through Our App</h3> -->
+      <h1 style="font-size: 3rem; color: black;">Connect Through Our App</h3>
+    <button type="button" class="btn btn-outline-info btn-lg download-button"><i class="fa-brands fa-apple"></i><a href="error.html"> Download</a></button>
+    <button type="button" class="btn btn-outline-dark btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    
+    <a href="https://sleepy-hollows-66159.herokuapp.com/"><i class="fa-solid fa-bell social-icon fa-2x"></i></a>
+    <i class="fa-brands fa-facebook social-icon fa-2x"></i>
+    <i class="fa-brands fa-instagram social-icon fa-2x"></i>
+    <i class="fa-brands fa-twitter social-icon fa-2x"></i>
+    <a href="mailto:adarshn6467@gmail.com"><i class="fa-solid fa-envelope social-icon fa-2x"></i></a>
+  <br>
+  <br>
+    <p style="color:white; text-align: center; font-size: larger;">© Copyright Uttarakhand Travel</p>
+  
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
