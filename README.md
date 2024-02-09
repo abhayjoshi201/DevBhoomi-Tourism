@@ -32,20 +32,20 @@ We welcome contributions from the community to make this platform even better.
 If you would like to contribute to my projects, please fork this repository and create a new branch for your changes. Once you are finished, please submit a pull request.
 
 ## Screenshorts
-1. 
-![1](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/d888a994-ee3b-4300-8c6c-c988d4bfe998)
-
-2.
-![WhatsApp Image 2024-02-08 at 20 47 50_4eeea8d8](https://github.com/abhayjoshi201/DevBhoomi-Tourism/assets/105213625/5a478bf4-29af-4016-9cf9-9a8203213b12)
-
+1.  ![WhatsApp Image 2024-02-08 at 20 47 50_4eeea8d8](https://github.com/abhayjoshi201/DevBhoomi-Tourism/assets/105213625/5a478bf4-29af-4016-9cf9-9a8203213b12)
 
 3.
-![3](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/e7a1b84c-6cda-452b-bc1d-42c09dd112ec)
+
+![WhatsApp Image 2024-02-08 at 20 48 31_e0c4ede3](https://github.com/abhayjoshi201/DevBhoomi-Tourism/assets/105213625/6d0e8cb2-cf23-4ed7-9642-14ce0e0584ac)
+
 
 4.
-![4](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/aff3121d-d466-4368-b281-f72b5f227b7d)
+![3](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/e7a1b84c-6cda-452b-bc1d-42c09dd112ec)
 
 5.
+![4](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/aff3121d-d466-4368-b281-f72b5f227b7d)
+
+6.
 ![pay](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/2f9d4e5e-7431-40fe-b9be-1a3109909806)
 
 
