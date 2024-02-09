@@ -36,16 +36,12 @@ If you would like to contribute to my projects, please fork this repository and 
   ![WhatsApp Image 2024-02-08 at 20 47 50_4eeea8d8](https://github.com/abhayjoshi201/DevBhoomi-Tourism/assets/105213625/5a478bf4-29af-4016-9cf9-9a8203213b12)
 
 2.
-![WhatsApp Image 2024-02-08 at 20 48 31_e0c4ede3](https://github.com/abhayjoshi201/DevBhoomi-Tourism/assets/105213625/6d0e8cb2-cf23-4ed7-9642-14ce0e0584ac)
-
-
-3.
 ![3](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/e7a1b84c-6cda-452b-bc1d-42c09dd112ec)
 
-4.
+3.
 ![4](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/aff3121d-d466-4368-b281-f72b5f227b7d)
 
-5.
+4.
 ![pay](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/2f9d4e5e-7431-40fe-b9be-1a3109909806)
 
 
