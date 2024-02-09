@@ -36,7 +36,8 @@ If you would like to contribute to my projects, please fork this repository and 
 ![1](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/d888a994-ee3b-4300-8c6c-c988d4bfe998)
 
 2.
-![2](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/13de0149-d177-4ad9-9be2-7b3139449440)
+![WhatsApp Image 2024-02-08 at 20 47 50_4eeea8d8](https://github.com/abhayjoshi201/DevBhoomi-Tourism/assets/105213625/5a478bf4-29af-4016-9cf9-9a8203213b12)
+
 
 3.
 ![3](https://github.com/NegiAdarsh/uttarakhand-tour/assets/100505819/e7a1b84c-6cda-452b-bc1d-42c09dd112ec)
