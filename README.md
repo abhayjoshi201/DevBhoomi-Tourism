@@ -1,6 +1,8 @@
 # Uttarakhand Tour and Travel
 
 Welcome to **Uttarakhand Tour and Travel**, your ultimate destination for exploring the breathtaking beauty of Uttarakhand and sharing your travel experiences with fellow enthusiasts. Whether you're a nature lover, adventure seeker, or just looking for a serene getaway, Uttarakhand has something magical to offer.
+![image](https://github.com/abhayjoshi201/DevBhoomi-Tourism/assets/105213625/c5b93c85-e538-486d-8b68-79e1091a2201)
+
 
 ## Table of Contents
 1. [Introduction](#introduction)
